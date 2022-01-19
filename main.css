@@ -1,0 +1,177 @@
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    width: 100%;
+    color: black;
+    background: url("../images/image1.jpg") no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+header {
+    background-color: #0e2c89;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu li {
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    max-width: 940px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size: 30px;
+}
+
+h1 {
+    color: orangered;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.titre {
+    text-align: center; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.colorback {
+    background-color: white;
+    width: 110%;
+    background-size: 100%;
+    margin: 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #0e2c89;
+    font-family: Times, serif;
+    font-size: 30px;
+}
+
+#profil {
+    text-align: justify;
+    padding: 5px;
+}
+/*I target the first 2 images*/
+/*#float1 {
+
+}*/
+
+#float2 {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+/*end target*/
+
+
+.center {
+    text-align: center;
+}
+
+.bouton1 {
+    color: #0e2c89;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Flex1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.div {
+    color: #0e2c89;
+}
+
+
+#center2:hover {
+    text-align: center;
+    color: orangered;
+}
+
+fieldset {
+    border-radius: 30px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+#accepter {
+    height: 10px;
+    width: 30px;
+    color: white;
+}
+/*CSS privacy policy*/
+.accepter {
+    color: white;
+}
+
+mark {
+    background-color: #0e2c89;
+}
+
+.logo {
+    text-align: center;
+}
+
+.mail {
+    text-align: center;
+    color: orangered;
+}
+
+.justifier {
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+/*end CSS privacy policy*/
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
